@@ -34,10 +34,10 @@ jobs:
           uses: actions/checkout@v4
           
         - name: Get tag name
-          uses: olegtarasov/get-tag@v3
+          uses: olegtarasov/get-tag@v2
           
         - name: Install doctl
-          uses: digitalocean/action-doctl@v4
+          uses: digitalocean/action-doctl@v3
           with:
            token: ${{ secrets.DIGITAL_OCEAN_ACCESS_TOKEN }}
            
