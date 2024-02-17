@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Title: Bad Bank Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description:
 
-## Available Scripts
+Bad Bank is the Capstone Project for the MIT – Full stack Development with MERN. It is called Bad Bank due to security vulnerability and users’ data exposure.
+It consists of a React application where the students apply concepts such as hooks, context, routing, and form validations for the front end. The back end features a server built on Node.js, Docker and MongoDB. JWT is used for authentication and authorize users. The application is deployed using AWS S3 Buckets.
 
-In the project directory, you can run:
+# How to Run
 
-### `npm start`
+Simply download the zip folder with the source code file or fork it into your GitHub and clone it into your machine then run it by using your favorite IDE.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Technologies and libraries used:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+•	JavaScript
 
-### `npm test`
+•	React.j
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+•	Node.js
 
-### `npm run build`
+•	JWT Validation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+•	Express.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+•	Bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+•	Docker
 
-### `npm run eject`
+•	DigitalOcean
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+•	Yaml
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+•	MongoDB
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Functionalities available:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+•	Create Account
 
-## Learn More
+•	Login to Account
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+•	Deposit
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+•	Withdraw
 
-### Code Splitting
+•	Logout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Future Adds
 
-### Analyzing the Bundle Size
+•	Create types of accounts – checking, saving, etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+•	Create transaction statement to serve as a receipt for customers.
 
-### Making a Progressive Web App
+•	Add a contact form.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+•	Add styling to provide a professional look.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Author
 
-### Deployment
+Mahmoud Braima. A student at MIT’s course titled Professional Certificate in Coding: Full stack Development with MERN.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# License
 
-### `npm run build` fails to minify
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
