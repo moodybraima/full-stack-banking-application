@@ -40,8 +40,6 @@ jobs:
           uses: digitalocean/action-doctl@v2
           with:
            token: ${{ secrets.DIGITAL_OCEAN_ACCESS_TOKEN }}
-        - name: ACTIONS_ALLOW_UNSECURE_COMMANDS
-          run: echo 'ACTIONS_ALLOW_UNSECURE_COMMANDS=true' >> $GITHUB_ENV
            
         - name: Provision Droplet and deploy container
           run: doctl compute droplet create "$GIT_TAG_NAME" --image docker-18-04 --size s-1vcpu-1gb --region sf02 --user-data-file deploy.sh --wait
