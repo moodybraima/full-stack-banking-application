@@ -40,6 +40,6 @@ jobs:
            token: ${{ secrets.DIGITAL_OCEAN_ACCESS_TOKEN }}
            
         - name: Provision Droplet and deploy container
-          run: doctl compute droplet create "$GIT_TAG_NAME" --image docker-18-04 --size s-1vcpu-1gb --region sf02 --user-data-file deploy --wait
+          run: doctl compute droplet create "$GIT_TAG_NAME" --image docker-18-04 --size s-1vcpu-1gb --region sf02 --user-data-file --wait
       
   
