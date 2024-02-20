@@ -44,7 +44,10 @@ jobs:
               --image ubuntu-23-10-x64 \
               --size s-1vcpu-1gb \
               --image docker-20-04\ 
+              --user-data-file\
+              --deploy.sh\ 
               --region sfo2 \
-              ubuntu-s-1vcpu-1gb-sfo2-01
+              ubuntu-s-1vcpu-1gb-sfo2-01\
+              --wait
       
   
