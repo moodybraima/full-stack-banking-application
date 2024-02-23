@@ -3,6 +3,8 @@ name: Full-Stack-Banking-Application
 on: 
   push:
     branches: ['main']
+    tags:
+      - stage-*
 
 jobs: 
   build:
