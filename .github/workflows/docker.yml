@@ -22,7 +22,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: mahmoudbraima/Full-Stack-Banking-Application
+          images: mahmoudbraima/Full-Stack-Banking-Application
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
