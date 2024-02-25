@@ -25,6 +25,10 @@ jobs:
           repository: mahmoudbraima/Full-Stack-Banking-Application
           tag_with_ref: true
           tag_with_sha: true
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
   
   deploy:
       needs: build
