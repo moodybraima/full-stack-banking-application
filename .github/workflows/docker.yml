@@ -15,7 +15,7 @@ jobs:
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
-        uses: docker/metadata-action@4
+        uses: docker/metadata-action@3
       
       - name: Build and push Docker images
         uses: docker/build-push-action@v5
