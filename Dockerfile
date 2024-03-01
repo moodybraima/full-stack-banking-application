@@ -1,6 +1,8 @@
-FROM node:20
+FROM node:latest
+
 # Create app directory
 WORKDIR /usr/src/app
+
 # Inwstall app dependencies
 COPY package*.json ./
 
@@ -10,4 +12,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 3000
+
 CMD ['node', "app.js"]
