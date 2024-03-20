@@ -1,9 +1,9 @@
-FROM node:latest
+FROM node:18-alpine
 
 # Create app directory
 WORKDIR /usr/src/app
 
-# Inwstall app dependencies
+# Install app dependencies
 COPY package*.json ./
 
 RUN npm install
@@ -13,4 +13,5 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ['node', "app.js"]
+CMD ["npm", "run", "dev"]
+
