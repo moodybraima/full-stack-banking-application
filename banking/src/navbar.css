@@ -1,0 +1,24 @@
+.navbar{
+    margin:0px 0px 20px 2px;
+}
+
+nav a{
+    color:blue;
+    padding:5px;
+    margin-right:5px;
+    margin-left: 5px;
+    text-decoration:none;
+    border-radius: 20px;
+}
+
+nav a.active{
+    background-color: gray;
+    text-decoration: none;
+    font-size:larger;
+    color:white;
+    padding-right: 10px;
+}
+
+.card{
+    margin: 0px 20px 0px 40px;
+}
